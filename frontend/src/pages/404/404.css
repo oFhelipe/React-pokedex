@@ -1,0 +1,142 @@
+/* Extra small devices (phones, 600px and down) */
+
+body{
+    background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .Box404{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c404{  
+        display: flex;
+        flex-direction: row;
+        font-size: 140px;
+        font-family: Roboto, sans-serif;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50%;
+        margin-bottom: 20%;
+        color: #cccccc;
+    }
+    .pokeballImg{
+        height: 120px;
+        width: 120px;
+    }
+
+    .messageContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .messageContainer{
+        margin-bottom: 20%;
+    }
+
+    .goBackButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff3838;
+        padding: 8px;
+        color: white;
+        font-family: Roboto, sans-serif;
+        border-radius: 5px;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .Box404{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .c404{  
+        display: flex;
+        flex-direction: row;
+        font-size: 230px;
+        font-family: Roboto, sans-serif;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50%;
+        margin-bottom: 20%;
+        color: #cccccc;
+    }
+    .pokeballImg{
+        height: 210px;
+        width: 210px;
+    }
+
+    .messageContainer{
+        font-size: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .messageContainer{
+        margin-bottom: 20%;
+    }
+
+    .goBackButton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ff3838;
+        padding: 16px;
+        color: white;
+        font-family: Roboto, sans-serif;
+        border-radius: 5px;
+        font-size: 24px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .c404{
+        margin-top: 20%;
+        margin-bottom: 10%;
+        font-size: 300px;
+    }
+
+    .pokeballImg{
+        height: 280px;
+        width: 280px;
+    }
+    .messageContainer{
+        margin-bottom: 5%;
+    }
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

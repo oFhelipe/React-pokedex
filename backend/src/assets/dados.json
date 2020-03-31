@@ -1,0 +1,2635 @@
+[{
+    "id": 1,
+    "name": {
+      "english": "Bulbasaur",
+      "japanese": "フシギダネ"
+    },
+    "description":"Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    "evolutions":[2,3],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "s_attack": 65,
+      "s_defense": 65,
+      "speed": 45
+    }
+  },
+  {
+    "id": 2,
+    "name": {
+      "english": "Ivysaur",
+      "japanese": "フシギソウ"
+    },
+    "description":"There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+    "evolutions":[1,3],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "s_attack": 80,
+      "s_defense": 80,
+      "speed": 60
+    }
+  },
+  {
+    "id": 3,
+    "name": {
+      "english": "Venusaur",
+      "japanese": "フシギバナ"
+    },
+    "description":"There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+    "evolutions":[1,2],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "s_attack": 100,
+      "s_defense": 100,
+      "speed": 80
+    }
+  },
+  {
+    "id": 4,
+    "name": {
+      "english": "Charmander",
+      "japanese": "ヒトカゲ"
+    },
+    "description":"The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+    "evolutions":[5, 6],
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "s_attack": 60,
+      "s_defense": 50,
+      "speed": 65
+    }
+  },
+  {
+    "id": 5,
+    "name": {
+      "english": "Charmeleon",
+      "japanese": "リザード"
+    },
+    "description":"Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color",
+    "evolutions":[4, 6],
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "s_attack": 80,
+      "s_defense": 65,
+      "speed": 80
+    }
+  },
+  {
+    "id": 6,
+    "name": {
+      "english": "Charizard",
+      "japanese": "リザードン"
+    },
+    "description":"Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    "evolutions":[4, 5],
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "s_attack": 109,
+      "s_defense": 85,
+      "speed": 100
+    }
+  },
+  {
+    "id": 7,
+    "name": {
+      "english": "Squirtle",
+      "japanese": "ゼニガメ"
+    },
+    "description":"Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds",
+    "evolutions":[8, 9],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "s_attack": 50,
+      "s_defense": 64,
+      "speed": 43
+    }
+  },
+  {
+    "id": 8,
+    "name": {
+      "english": "Wartortle",
+      "japanese": "カメール"
+    },
+    "description":"Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+    "evolutions":[7, 9],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "s_attack": 65,
+      "s_defense": 80,
+      "speed": 58
+    }
+  },
+  {
+    "id": 9,
+    "name": {
+      "english": "Blastoise",
+      "japanese": "カメックス"
+    },
+    "description":"Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+    "evolutions":[7, 8],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "s_attack": 85,
+      "s_defense": 105,
+      "speed": 78
+    }
+  },
+  {
+    "id": 10,
+    "name": {
+      "english": "Caterpie",
+      "japanese": "キャタピー"
+    },
+    "description":"Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
+    "evolutions":[11,12],
+    "type": [
+      "Bug"
+    ],
+    "base": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "s_attack": 20,
+      "s_defense": 20,
+      "speed": 45
+    }
+  },
+  {
+    "id": 11,
+    "name": {
+      "english": "Metapod",
+      "japanese": "トランセル"
+    },
+    "description":"The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell",
+    "evolutions":[10,12],
+    "type": [
+      "Bug"
+    ],
+    "base": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "s_attack": 25,
+      "s_defense": 25,
+      "speed": 30
+    }
+  },
+  {
+    "id": 12,
+    "name": {
+      "english": "Butterfree",
+      "japanese": "バタフリー"
+    },
+    "description":"Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+    "evolutions":[10,11],
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "s_attack": 90,
+      "s_defense": 80,
+      "speed": 70
+    }
+  },
+  {
+    "id": 13,
+    "name": {
+      "english": "Weedle",
+      "japanese": "ビードル"
+    },
+    "description":"Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+    "evolutions":[14, 15],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "s_attack": 20,
+      "s_defense": 20,
+      "speed": 50
+    }
+  },
+  {
+    "id": 14,
+    "name": {
+      "english": "Kakuna",
+      "japanese": "コクーン"
+    },
+    "description":"Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+    "evolutions":[13,15],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "s_attack": 25,
+      "s_defense": 25,
+      "speed": 35
+    }
+  },
+  {
+    "id": 15,
+    "name": {
+      "english": "Beedrill",
+      "japanese": "スピアー"
+    },
+    "description":"Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm",
+    "evolutions":[13,14],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "s_attack": 45,
+      "s_defense": 80,
+      "speed": 75
+    }
+  },
+  {
+    "id": 16,
+    "name": {
+      "english": "Pidgey",
+      "japanese": "ポッポ"
+    },
+    "description":"Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
+    "evolutions":[17,18],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "s_attack": 35,
+      "s_defense": 35,
+      "speed": 56
+    }
+  },
+  {
+    "id": 17,
+    "name": {
+      "english": "Pidgeotto",
+      "japanese": "ピジョン"
+    },
+    "description":"Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws",
+    "evolutions":[16,18],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "s_attack": 50,
+      "s_defense": 50,
+      "speed": 71
+    }
+  },
+  {
+    "id": 18,
+    "name": {
+      "english": "Pidgeot",
+      "japanese": "ピジョット"
+    },
+    "description":"This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+    "evolutions":[16,17],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "s_attack": 70,
+      "s_defense": 70,
+      "speed": 101
+    }
+  },
+  {
+    "id": 19,
+    "name": {
+      "english": "Rattata",
+      "japanese": "コラッタ"
+    },
+    "description":"Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
+    "evolutions":[20],
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "s_attack": 25,
+      "s_defense": 35,
+      "speed": 72
+    }
+  },
+  {
+    "id": 20,
+    "name": {
+      "english": "Raticate",
+      "japanese": "ラッタ"
+    },
+    "description":"Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
+    "evolutions":[19],
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "s_attack": 50,
+      "s_defense": 70,
+      "speed": 97
+    }
+  },
+  {
+    "id": 21,
+    "name": {
+      "english": "Spearow",
+      "japanese": "オニスズメ"
+    },
+    "description":"Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
+    "evolutions":[22],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "s_attack": 31,
+      "s_defense": 31,
+      "speed": 70
+    }
+  },
+  {
+    "id": 22,
+    "name": {
+      "english": "Fearow",
+      "japanese": "オニドリル"
+    },
+    "description":"Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
+    "evolutions":[21],
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "s_attack": 61,
+      "s_defense": 61,
+      "speed": 100
+    }
+  },
+  {
+    "id": 23,
+    "name": {
+      "english": "Ekans",
+      "japanese": "アーボ"
+    },
+    "description":"Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
+    "evolutions":[24],
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "s_attack": 40,
+      "s_defense": 54,
+      "speed": 55
+    }
+  },
+  {
+    "id": 24,
+    "name": {
+      "english": "Arbok",
+      "japanese": "アーボック"
+    },
+    "description":"This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
+    "evolutions":[23],
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "s_attack": 65,
+      "s_defense": 79,
+      "speed": 80
+    }
+  },
+  {
+    "id": 25,
+    "name": {
+      "english": "Pikachu",
+      "japanese": "ピカチュウ"
+    },
+    "description":"Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
+    "evolutions":[26],
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "s_attack": 50,
+      "s_defense": 50,
+      "speed": 90
+    }
+  },
+  {
+    "id": 26,
+    "name": {
+      "english": "Raichu",
+      "japanese": "ライチュウ"
+    },
+    "description":"If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon's nest.",
+    "evolutions":[25],
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "s_attack": 90,
+      "s_defense": 80,
+      "speed": 110
+    }
+  },
+  {
+    "id": 27,
+    "name": {
+      "english": "Sandshrew",
+      "japanese": "サンド"
+    },
+    "description":"Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.",
+    "evolutions":[28],
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "s_attack": 20,
+      "s_defense": 30,
+      "speed": 40
+    }
+  },
+  {
+    "id": 28,
+    "name": {
+      "english": "Sandslash",
+      "japanese": "サンドパン"
+    },
+    "description":"Sandslash's body is covered by tough spikes, which are hardened sections of its hide. Once a year, the old spikes fall out, to be replaced with new spikes that grow out from beneath the old ones.",
+    "evolutions":[27],
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "s_attack": 45,
+      "s_defense": 55,
+      "speed": 65
+    }
+  },
+  {
+    "id": 29,
+    "name": {
+      "english": "Nidoran♀",
+      "japanese": "ニドラン♀"
+    },
+    "description":"Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
+    "evolutions":[30,31],
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "s_attack": 40,
+      "s_defense": 40,
+      "speed": 41
+    }
+  },
+  {
+    "id": 30,
+    "name": {
+      "english": "Nidorina",
+      "japanese": "ニドリーナ"
+    },
+    "description":"When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.",
+    "evolutions":[29, 31],
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "s_attack": 55,
+      "s_defense": 55,
+      "speed": 56
+    }
+  },
+  {
+    "id": 31,
+    "name": {
+      "english": "Nidoqueen",
+      "japanese": "ニドクイン"
+    },
+    "description":"Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
+    "evolutions":[29,30],
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "base": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "s_attack": 75,
+      "s_defense": 85,
+      "speed": 76
+    }
+  },
+  {
+    "id": 32,
+    "name": {
+      "english": "Nidoran♂",
+      "japanese": "ニドラン♂"
+    },
+    "description":"Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice.",
+    "evolutions":[33,34],
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "s_attack": 40,
+      "s_defense": 40,
+      "speed": 50
+    }
+  },
+  {
+    "id": 33,
+    "name": {
+      "english": "Nidorino",
+      "japanese": "ニドリーノ"
+    },
+    "description":"Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
+    "evolutions":[32,34],
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "s_attack": 55,
+      "s_defense": 55,
+      "speed": 65
+    }
+  },
+  {
+    "id": 34,
+    "name": {
+      "english": "Nidoking",
+      "japanese": "ニドキング"
+    },
+    "description":"Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
+    "evolutions":[32,33],
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "base": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "s_attack": 85,
+      "s_defense": 75,
+      "speed": 85
+    }
+  },
+  {
+    "id": 35,
+    "name": {
+      "english": "Clefairy",
+      "japanese": "ピッピ"
+    },
+    "description":"On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
+    "evolutions":[36],
+    "type": [
+      "Fairy"
+    ],
+    "base": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "s_attack": 60,
+      "s_defense": 65,
+      "speed": 35
+    }
+  },
+  {
+    "id": 36,
+    "name": {
+      "english": "Clefable",
+      "japanese": "ピクシー"
+    },
+    "description":"Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
+    "evolutions":[35],
+    "type": [
+      "Fairy"
+    ],
+    "base": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "s_attack": 95,
+      "s_defense": 90,
+      "speed": 60
+    }
+  },
+  {
+    "id": 37,
+    "name": {
+      "english": "Vulpix",
+      "japanese": "ロコン"
+    },
+    "description":"At the time of its birth, Vulpix has one white tail. The tail separates into six if this Pokémon receives plenty of love from its Trainer. The six tails become magnificently curled",
+    "evolutions":[38],
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "s_attack": 50,
+      "s_defense": 65,
+      "speed": 65
+    }
+  },
+  {
+    "id": 38,
+    "name": {
+      "english": "Ninetales",
+      "japanese": "キュウコン"
+    },
+    "description":"Ninetales casts a sinister light from its bright red eyes to gain total control over its foe's mind. This Pokémon is said to live for a thousand years.",
+    "evolutions":[37],
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "s_attack": 81,
+      "s_defense": 100,
+      "speed": 100
+    }
+  },
+  {
+    "id": 39,
+    "name": {
+      "english": "Jigglypuff",
+      "japanese": "プリン"
+    },
+    "description":"Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.",
+    "evolutions":[40],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "s_attack": 45,
+      "s_defense": 25,
+      "speed": 20
+    }
+  },
+  {
+    "id": 40,
+    "name": {
+      "english": "Wigglytuff",
+      "japanese": "プクリン"
+    },
+    "description":"Wigglytuff has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away.",
+    "evolutions":[39],
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "s_attack": 85,
+      "s_defense": 50,
+      "speed": 45
+    }
+  },
+  {
+    "id": 41,
+    "name": {
+      "english": "Zubat",
+      "japanese": "ズバット"
+    },
+    "description":"Zubat remains quietly unmoving in a dark spot during the bright daylight hours. It does so because prolonged exposure to the sun causes its body to become slightly burned.",
+    "evolutions":[42],
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "s_attack": 30,
+      "s_defense": 40,
+      "speed": 55
+    }
+  },
+  {
+    "id": 42,
+    "name": {
+      "english": "Golbat",
+      "japanese": "ゴルバット"
+    },
+    "description":"Golbat loves to drink the blood of living things. It is particularly active in the pitch black of night. This Pokémon flits around in the night skies, seeking fresh blood.",
+    "evolutions":[41],
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "base": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "s_attack": 65,
+      "s_defense": 75,
+      "speed": 90
+    }
+  },
+  {
+    "id": 43,
+    "name": {
+      "english": "Oddish",
+      "japanese": "ナゾノクサ"
+    },
+    "description":"During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.",
+    "evolutions":[44,45],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "s_attack": 75,
+      "s_defense": 65,
+      "speed": 30
+    }
+  },
+  {
+    "id": 44,
+    "name": {
+      "english": "Gloom",
+      "japanese": "クサイハナ"
+    },
+    "description":"Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma.",
+    "evolutions":[43,45],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "s_attack": 85,
+      "s_defense": 75,
+      "speed": 40
+    }
+  },
+  {
+    "id": 45,
+    "name": {
+      "english": "Vileplume",
+      "japanese": "ラフレシア"
+    },
+    "description":"Vileplume's toxic pollen triggers atrocious allergy attacks. That's why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be.",
+    "evolutions":[43,44],
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "s_attack": 110,
+      "s_defense": 90,
+      "speed": 50
+    }
+  },
+  {
+    "id": 46,
+    "name": {
+      "english": "Paras",
+      "japanese": "パラス"
+    },
+    "description":"Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life",
+    "evolutions":[47],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "base": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "s_attack": 45,
+      "s_defense": 55,
+      "speed": 25
+    }
+  },
+  {
+    "id": 47,
+    "name": {
+      "english": "Parasect",
+      "japanese": "パラセクト"
+    },
+    "description":"Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
+    "evolutions":[46],
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "s_attack": 60,
+      "s_defense": 80,
+      "speed": 30
+    }
+  },
+  {
+    "id": 48,
+    "name": {
+      "english": "Venonat",
+      "japanese": "コンパン"
+    },
+    "description":"Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+    "evolutions":[49],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "s_attack": 40,
+      "s_defense": 55,
+      "speed": 45
+    }
+  },
+  {
+    "id": 49,
+    "name": {
+      "english": "Venomoth",
+      "japanese": "モルフォン"
+    },
+    "description":"Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+    "evolutions":[48],
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "s_attack": 90,
+      "s_defense": 75,
+      "speed": 90
+    }
+  },
+  {
+    "id": 50,
+    "name": {
+      "english": "Diglett",
+      "japanese": "ディグダ"
+    },
+    "description":"Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
+    "evolutions":[51],
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "s_attack": 35,
+      "s_defense": 45,
+      "speed": 95
+    }
+  },
+  {
+    "id": 51,
+    "name": {
+      "english": "Dugtrio",
+      "japanese": "ダグトリオ"
+    },
+    "description":"Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.",
+    "evolutions":[50],
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "s_attack": 50,
+      "s_defense": 70,
+      "speed": 120
+    }
+  },
+  {
+    "id": 52,
+    "name": {
+      "english": "Meowth",
+      "japanese": "ニャース"
+    },
+    "description":"Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.",
+    "evolutions":[53],
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "s_attack": 40,
+      "s_defense": 40,
+      "speed": 90
+    }
+  },
+  {
+    "id": 53,
+    "name": {
+      "english": "Persian",
+      "japanese": "ペルシアン"
+    },
+    "description":"Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
+    "evolutions":[52],
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "s_attack": 65,
+      "s_defense": 65,
+      "speed": 115
+    }
+  },
+  {
+    "id": 54,
+    "name": {
+      "english": "Psyduck",
+      "japanese": "コダック"
+    },
+    "description":"Psyduck uses a mysterious power. When it does so, this Pokémon generates brain waves that are supposedly only seen in sleepers. This discovery spurred controversy among scholars.",
+    "evolutions":[55],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "s_attack": 65,
+      "s_defense": 50,
+      "speed": 55
+    }
+  },
+  {
+    "id": 55,
+    "name": {
+      "english": "Golduck",
+      "japanese": "ゴルダック"
+    },
+    "description":"The webbed flippers on its forelegs and hind legs and the streamlined body of Golduck give it frightening speed. This Pokémon is definitely much faster than even the most athletic swimmer.",
+    "evolutions":[54],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "s_attack": 95,
+      "s_defense": 80,
+      "speed": 85
+    }
+  },
+  {
+    "id": 56,
+    "name": {
+      "english": "Mankey",
+      "japanese": "マンキー"
+    },
+    "description":"When Mankey starts shaking and its nasal breathing turns rough, it's a sure sign that it is becoming angry. However, because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath.",
+    "evolutions":[57],
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "s_attack": 35,
+      "s_defense": 45,
+      "speed": 70
+    }
+  },
+  {
+    "id": 57,
+    "name": {
+      "english": "Primeape",
+      "japanese": "オコリザル"
+    },
+    "description":"When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger. However, it also becomes much less intelligent at the same time.",
+    "evolutions":[56],
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "s_attack": 60,
+      "s_defense": 70,
+      "speed": 95
+    }
+  },
+  {
+    "id": 58,
+    "name": {
+      "english": "Growlithe",
+      "japanese": "ガーディ"
+    },
+    "description":"Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won't forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things.",
+    "evolutions":[59],
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "s_attack": 70,
+      "s_defense": 50,
+      "speed": 60
+    }
+  },
+  {
+    "id": 59,
+    "name": {
+      "english": "Arcanine",
+      "japanese": "ウインディ"
+    },
+    "description":"Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pokémon's body is its source of power.",
+    "evolutions":[58],
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "s_attack": 100,
+      "s_defense": 80,
+      "speed": 95
+    }
+  },
+  {
+    "id": 60,
+    "name": {
+      "english": "Poliwag",
+      "japanese": "ニョロモ"
+    },
+    "description":"Poliwag has a very thin skin. It is possible to see the Pokémon's spiral innards right through the skin. Despite its thinness, however, the skin is also very flexible. Even sharp fangs bounce right off it.",
+    "evolutions":[61,62],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "s_attack": 40,
+      "s_defense": 40,
+      "speed": 90
+    }
+  },
+  {
+    "id": 61,
+    "name": {
+      "english": "Poliwhirl",
+      "japanese": "ニョロゾ"
+    },
+    "description":"The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.",
+    "evolutions":[60,62],
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "s_attack": 50,
+      "s_defense": 50,
+      "speed": 90
+    }
+  },
+  {
+    "id": 62,
+    "name": {
+      "english": "Poliwrath",
+      "japanese": "ニョロボン"
+    },
+    "description":"Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
+    "evolutions":[60,61],
+    "type": [
+      "Water",
+      "Fighting"
+    ],
+    "base": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "s_attack": 70,
+      "s_defense": 90,
+      "speed": 70
+    }
+  },
+  {
+    "id": 63,
+    "name": {
+      "english": "Abra",
+      "japanese": "ケーシィ"
+    },
+    "description":"Abra sleeps for eighteen hours a day. However, it can sense the presence of foes even while it is sleeping. In such a situation, this Pokémon immediately teleports to safety.",
+    "evolutions":[64,65],
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "s_attack": 105,
+      "s_defense": 55,
+      "speed": 90
+    }
+  },
+  {
+    "id": 64,
+    "name": {
+      "english": "Kadabra",
+      "japanese": "ユンゲラー"
+    },
+    "description":"Kadabra emits a peculiar alpha wave if it develops a headache. Only those people with a particularly strong psyche can hope to become a Trainer of this Pokémon.",
+    "evolutions":[63,65],
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "s_attack": 120,
+      "s_defense": 70,
+      "speed": 105
+    }
+  },
+  {
+    "id": 65,
+    "name": {
+      "english": "Alakazam",
+      "japanese": "フーディン"
+    },
+    "description":"Alakazam's brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead.",
+    "evolutions":[63,64],
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "s_attack": 135,
+      "s_defense": 95,
+      "speed": 120
+    }
+  },
+  {
+    "id": 66,
+    "name": {
+      "english": "Machop",
+      "japanese": "ワンリキー"
+    },
+    "description":"Machop's muscles are special—they never get sore no matter how much they are used in exercise. This Pokémon has sufficient power to hurl a hundred adult humans.",
+    "evolutions":[67,68],
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "s_attack": 35,
+      "s_defense": 35,
+      "speed": 35
+    }
+  },
+  {
+    "id": 67,
+    "name": {
+      "english": "Machoke",
+      "japanese": "ゴーリキー"
+    },
+    "description":"Machoke's thoroughly toned muscles possess the hardness of steel. This Pokémon has so much strength, it can easily hold aloft a sumo wrestler on just one finger.",
+    "evolutions":[66,68],
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "s_attack": 50,
+      "s_defense": 60,
+      "speed": 45
+    }
+  },
+  {
+    "id": 68,
+    "name": {
+      "english": "Machamp",
+      "japanese": "カイリキー"
+    },
+    "description":"Machamp has the power to hurl anything aside. However, trying to do any work requiring care and dexterity causes its arms to get tangled. This Pokémon tends to leap into action before it thinks.",
+    "evolutions":[66,67],
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "s_attack": 65,
+      "s_defense": 85,
+      "speed": 55
+    }
+  },
+
+  {
+    "id": 69,
+    "name": { "english": "Bellsprout", "japanese": "マダツボミ" },
+    "description": "Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.  Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.",
+    "evolutions": [70,71],
+    "type": [ "Grass", "Poison" ],
+    "base": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "s_attack": 70,
+      "s_defense": 30,
+       "speed": 40
+    }
+  },
+  {
+    "id": 70,
+    "name": { "english": "Weepinbell", "japanese": "ウツドン" },
+    "description": "Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.  Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
+    "evolutions": [69,71],
+    "type": [ "Grass", "Poison" ],
+    "base": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "s_attack": 85,
+      "s_defense": 45,
+       "speed": 55
+    }
+  },
+  {
+    "id": 71,
+    "name": { "english": "Victreebel", "japanese": "ウツボット" },
+    "description": "Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.  Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.",
+    "evolutions": [69,68],
+    "type": [ "Grass", "Poison" ],
+    "base": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "s_attack": 100,
+      "s_defense": 70,
+       "speed": 70
+    }
+  },
+  {
+    "id": 72,
+    "name": { "english": "Tentacool", "japanese": "メノクラゲ" },
+    "description": "Tentacool absorbs sunlight and refracts it using water inside its body to convert it into beam energy. This Pokémon shoots beams from the small round organ above its eyes.  Tentacool's body is largely composed of water. If it is removed from the sea, it dries up like parchment. If this Pokémon happens to become dehydrated, put it back into the sea.",
+    "evolutions": [73],
+    "type": [ "Water", "Poison" ],
+    "base": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "s_attack": 50,
+      "s_defense": 100,
+       "speed": 70
+    }
+  },
+  {
+    "id": 73,
+    "name": { "english": "Tentacruel", "japanese": "ドククラゲ" },
+    "description": "Tentacruel has tentacles that can be freely elongated and shortened at will. It ensnares prey with its tentacles and weakens the prey by dosing it with a harsh toxin. It can catch up to 80 prey at the same time.  Tentacruel has large red orbs on its head. The orbs glow before lashing the vicinity with a harsh ultrasonic blast. This Pokémon's outburst creates rough waves around it.",
+    "evolutions": [72],
+    "type": [ "Water", "Poison" ],
+    "base": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "s_attack": 80,
+      "s_defense": 120,
+       "speed": 100
+    }
+  },
+  {
+    "id": 74,
+    "name": { "english": "Geodude", "japanese": "イシツブテ" },
+    "description": "When Geodude sleeps deeply, it buries itself halfway into the ground. It will not awaken even if hikers step on it unwittingly. In the morning, this Pokémon rolls downhill in search of food.  The longer a Geodude lives, the more its edges are chipped and worn away, making it more rounded in appearance. However, this Pokémon's heart will remain hard, craggy, and rough always.",
+    "evolutions": [75,76],
+    "type": [ "Rock", "Ground" ],
+    "base": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "s_attack": 30,
+      "s_defense": 30,
+       "speed": 20
+    }
+  },
+  {
+    "id": 75,
+    "name": { "english": "Graveler", "japanese": "ゴローン" },
+    "description": "Rocks are Graveler's favorite food. This Pokémon will climb a mountain from the base to the summit, crunchingly feasting on rocks all the while. Upon reaching the peak, it rolls back down to the bottom.  Graveler grows by feeding on rocks. Apparently, it prefers to eat rocks that are covered in moss. This Pokémon eats its way through a ton of rocks on a daily basis.",
+    "evolutions": [74,76],
+    "type": [ "Rock", "Ground" ],
+    "base": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "s_attack": 45,
+      "s_defense": 45,
+       "speed": 35
+    }
+  },
+  {
+    "id": 76,
+    "name": { "english": "Golem", "japanese": "ゴローニャ" },
+    "description": "Golem is known for rolling down from mountains. To prevent them from rolling into the homes of people downhill, grooves have been dug into the sides of mountains to serve as guideways for diverting this Pokémon's course.  Golem live up on mountains. If there is a large earthquake, these Pokémon will come rolling down off the mountains en masse to the foothills below.",
+    "evolutions": [74,75],
+    "type": [ "Rock", "Ground" ],
+    "base": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "s_attack": 55,
+      "s_defense": 65,
+       "speed": 45
+    }
+  },
+  {
+    "id": 77,
+    "name": { "english": "Ponyta", "japanese": "ポニータ" },
+    "description": "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.  Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.",
+    "evolutions": [78],
+    "type": [ "Fire" ],
+    "base": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "s_attack": 65,
+      "s_defense": 65,
+       "speed": 90
+    }
+  },
+  {
+    "id": 78,
+    "name": { "english": "Rapidash", "japanese": "ギャロップ" },
+    "description": "Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.  Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
+    "evolutions": [77],
+    "type": [ "Fire" ],
+    "base": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "s_attack": 80,
+      "s_defense": 80,
+       "speed": 105
+    }
+  },
+  {
+    "id": 79,
+    "name": { "english": "Slowpoke", "japanese": "ヤドン" },
+    "description": "Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it's doing and often spends entire days just loafing at water's edge.  Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it's doing and often spends entire days just loafing at water's edge.",
+    "evolutions": [80],
+    "type": [ "Water", "Psychic" ],
+    "base": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "s_attack": 40,
+      "s_defense": 40,
+       "speed": 15
+    }
+  },
+  {
+    "id": 80,
+    "name": { "english": "Slowbro", "japanese": "ヤドラン" },
+    "description": "Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.  Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
+    "evolutions": [79],
+    "type": [ "Water", "Psychic" ],
+    "base": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "s_attack": 100,
+      "s_defense": 80,
+       "speed": 30
+    }
+  },
+  {
+    "id": 81,
+    "name": { "english": "Magnemite", "japanese": "コイル" },
+    "description": "Magnemite floats in the air by emitting electromagnetic waves from the units at its sides. These waves block gravity. This Pokémon becomes incapable of flight if its internal electrical supply is depleted.  Magnemite attaches itself to power lines to feed on electricity. If your house has a power outage, check your circuit breakers. You may find a large number of this Pokémon clinging to the breaker box.",
+    "evolutions": [82],
+    "type": [ "Electric", "Steel" ],
+    "base": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "s_attack": 95,
+      "s_defense": 55,
+       "speed": 45
+    }
+  },
+  {
+    "id": 82,
+    "name": { "english": "Magneton", "japanese": "レアコイル" },
+    "description": "Magneton emits a powerful magnetic force that is fatal to electronics and precision instruments. Because of this, it is said that some towns warn people to keep this Pokémon inside a Poké Ball.  Magneton emits a powerful magnetic force that is fatal to mechanical devices. As a result, large cities sound sirens to warn citizens of large-scale outbreaks of this Pokémon.",
+    "evolutions": [81],
+    "type": [ "Electric", "Steel" ],
+    "base": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "s_attack": 120,
+      "s_defense": 70,
+       "speed": 70
+    }
+  },
+  {
+    "id": 83,
+    "name": { "english": "Farfetch'd", "japanese": "カモネギ" },
+    "description": "Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.  Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
+    "evolutions": [null],
+    "type": [ "Normal", "Flying" ],
+    "base": {
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "s_attack": 58,
+      "s_defense": 62,
+       "speed": 60
+    }
+  },
+  {
+    "id": 84,
+    "name": { "english": "Doduo", "japanese": "ドードー" },
+    "description": "Doduo's two heads contain completely identical brains. A scientific study reported that on rare occasions, there will be examples of this Pokémon possessing different sets of brains.  Doduo's two heads never sleep at the same time. Its two heads take turns sleeping, so one head can always keep watch for enemies while the other one sleeps.",
+    "evolutions": [85],
+    "type": [ "Normal", "Flying" ],
+    "base": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "s_attack": 35,
+      "s_defense": 35,
+       "speed": 75
+    }
+  },
+  {
+    "id": 85,
+    "name": { "english": "Dodrio", "japanese": "ドードリオ" },
+    "description": "Apparently, the heads aren't the only parts of the body that Dodrio has three of. It has three sets of hearts and lungs as well, so it is capable of running long distances without rest.  Watch out if Dodrio's three heads are looking in three separate directions. It's a sure sign that it is on its guard. Don't go near this Pokémon if it's being wary—it may decide to peck you.",
+    "evolutions": [84],
+    "type": [ "Normal", "Flying" ],
+    "base": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "s_attack": 60,
+      "s_defense": 60,
+       "speed": 110
+    }
+  },
+  {
+    "id": 86,
+    "name": { "english": "Seel", "japanese": "パウワウ" },
+    "description": "Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.  Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
+    "evolutions": [87],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "s_attack": 45,
+      "s_defense": 70,
+       "speed": 45
+    }
+  },
+  {
+    "id": 87,
+    "name": { "english": "Dewgong", "japanese": "ジュゴン" },
+    "description": "Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.  Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
+    "evolutions": [86],
+
+    "type": [ "Water", "Ice" ],
+    "base": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "s_attack": 70,
+      "s_defense": 95,
+       "speed": 70
+    }
+  },
+  {
+    "id": 88,
+    "name": { "english": "Grimer", "japanese": "ベトベター" },
+    "description": "Grimer emerged from the sludge that settled on a polluted seabed. This Pokémon loves anything filthy. It constantly leaks a horribly germ-infested fluid from all over its body.  Grimer's sludgy and rubbery body can be forced through any opening, however small it may be. This Pokémon enters sewer pipes to drink filthy wastewater.",
+    "evolutions": [89],
+    "type": [ "Poison" ],
+    "base": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "s_attack": 40,
+      "s_defense": 50,
+       "speed": 25
+    }
+  },
+  {
+    "id": 89,
+    "name": { "english": "Muk", "japanese": "ベトベトン" },
+    "description": "This Pokémon's favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, Muk are certain to gather.  From Muk's body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid.",  
+    "evolutions": [88],
+    "type": [ "Poison" ],
+    "base": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "s_attack": 65,
+      "s_defense": 100,
+       "speed": 50
+    }
+  },
+  {
+    "id": 90,
+    "name": { "english": "Shellder", "japanese": "シェルダー" },
+    "description": "At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out.  At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out.",
+    "evolutions": [91],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "s_attack": 45,
+      "s_defense": 25,
+       "speed": 40
+    }
+  },
+  {
+    "id": 91,
+    "name": { "english": "Cloyster", "japanese": "パルシェン" },
+    "description": "Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system.  Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system.",
+    "evolutions": [90],
+    "type": [ "Water", "Ice" ],
+    "base": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "s_attack": 85,
+      "s_defense": 45,
+       "speed": 70
+    }
+  },
+  {
+    "id": 92,
+    "name": { "english": "Gastly", "japanese": "ゴース" },
+    "description": "Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind.  Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind.",
+    "evolutions": [93,94],
+    "type": [ "Ghost", "Poison" ],
+    "base": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "s_attack": 100,
+      "s_defense": 35,
+       "speed": 80
+    }
+  },
+  {
+    "id": 93,
+    "name": { "english": "Haunter", "japanese": "ゴースト" },
+    "description": "Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away.  Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away.",
+    "evolutions": [92,94],
+    "type": [ "Ghost", "Poison" ],
+    "base": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "s_attack": 115,
+      "s_defense": 55,
+       "speed": 95
+    }
+  },
+  {
+    "id": 94,
+    "name": { "english": "Gengar", "japanese": "ゲンガー" },
+    "description": "Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.  Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
+    "evolutions": [92,93],
+    "type": [ "Ghost", "Poison" ],
+    "base": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "s_attack": 130,
+      "s_defense": 75,
+       "speed": 110
+    }
+  },
+  {
+    "id": 95,
+    "name": { "english": "Onix", "japanese": "イワーク" },
+    "description": "Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.  Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.",
+    "evolutions": [null],
+    "type": [ "Rock", "Ground" ],
+    "base": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "s_attack": 30,
+      "s_defense": 45,
+       "speed": 70
+    }
+  },
+  {
+    "id": 96,
+    "name": { "english": "Drowzee", "japanese": "スリープ" },
+    "description": "If your nose becomes itchy while you are sleeping, it's a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils.  If your nose becomes itchy while you are sleeping, it's a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils.",
+    "evolutions": [97],
+    "type": [ "Psychic" ],
+    "base": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "s_attack": 43,
+      "s_defense": 90,
+       "speed": 42
+    }
+  },
+  {
+    "id": 97,
+    "name": { "english": "Hypno", "japanese": "スリーパー" },
+    "description": "Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum.  Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum.",
+    "evolutions": [96],
+    "type": [ "Psychic" ],
+    "base": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "s_attack": 73,
+      "s_defense": 115,
+       "speed": 67
+    }
+  },
+  {
+    "id": 98,
+    "name": { "english": "Krabby", "japanese": "クラブ" },
+    "description": "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.  Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.",
+    "evolutions": [99],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "s_attack": 25,
+      "s_defense": 25,
+       "speed": 50
+    }
+  },
+  {
+    "id": 99,
+    "name": { "english": "Kingler", "japanese": "キングラー" },
+    "description": "Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.  Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.",
+    "evolutions": [98],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "s_attack": 50,
+      "s_defense": 50,
+       "speed": 75
+    }
+  },
+  {
+    "id": 100,
+    "name": { "english": "Voltorb", "japanese": "ビリリダマ" },
+    "description": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.  Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery.",
+    "evolutions": [101],
+    "type": [ "Electric" ],
+    "base": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "s_attack": 55,
+      "s_defense": 55,
+       "speed": 100
+    }
+  },
+  {
+    "id": 101,
+    "name": { "english": "Electrode", "japanese": "マルマイン" },
+    "description": "One of Electrode's characteristics is its attraction to electricity. It is a problematical Pokémon that congregates mostly at electrical power plants to feed on electricity that has just been generated.  Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity.",
+    "evolutions": [100],
+    "type": [ "Electric" ],
+    "base": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "s_attack": 80,
+      "s_defense": 80,
+       "speed": 150
+    }
+  },
+  {
+    "id": 102,
+    "name": { "english": "Exeggcute", "japanese": "タマタマ" },
+    "description": "This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.  This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.",
+    "evolutions": [103],
+    "type": [ "Grass", "Psychic" ],
+    "base": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "s_attack": 60,
+      "s_defense": 45,
+       "speed": 40
+    }
+  },
+  {
+    "id": 103,
+    "name": { "english": "Exeggutor", "japanese": "ナッシー" },
+    "description": "Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.  Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.",
+    "evolutions": [102],
+    "type": [ "Grass", "Psychic" ],
+    "base": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "s_attack": 125,
+      "s_defense": 75,
+       "speed": 55
+    }
+  },
+  {
+    "id": 104,
+    "name": { "english": "Cubone", "japanese": "カラカラ" },
+    "description": "Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pokémon wears are made by the tears it sheds.  Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pokémon wears are made by the tears it sheds.",
+    "evolutions": [105],
+    "type": [ "Ground" ],
+    "base": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "s_attack": 40,
+      "s_defense": 50,
+       "speed": 35
+    }
+  },
+  {
+    "id": 105,
+    "name": { "english": "Marowak", "japanese": "ガラガラ" },
+    "description": "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon's tempered and hardened spirit is not easily broken.  Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon's tempered and hardened spirit is not easily broken.",
+    "evolutions": [104],
+    "type": [ "Ground" ],
+    "base": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "s_attack": 50,
+      "s_defense": 80,
+       "speed": 45
+    }
+  },
+  {
+    "id": 106,
+    "name": { "english": "Hitmonlee", "japanese": "サワムラー" },
+    "description": "Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.  Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
+    "evolutions": [null],
+    "type": [ "Fighting" ],
+    "base": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "s_attack": 35,
+      "s_defense": 110,
+       "speed": 87
+    }
+  },
+  {
+    "id": 107,
+    "name": { "english": "Hitmonchan", "japanese": "エビワラー" },
+    "description": "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.  Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.",
+    "evolutions": [null],
+    "type": [ "Fighting" ],
+    "base": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "s_attack": 35,
+      "s_defense": 110,
+       "speed": 76
+    }
+  },
+  {
+    "id": 108,
+    "name": { "english": "Lickitung", "japanese": "ベロリンガ" },
+    "description": "Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things.  Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "s_attack": 60,
+      "s_defense": 75,
+       "speed": 30
+    }
+  },
+  {
+    "id": 109,
+    "name": { "english": "Koffing", "japanese": "ドガース" },
+    "description": "Koffing embodies toxic substances. It mixes the toxins with raw garbage to set off a chemical reaction that results in a terribly powerful poison gas. The higher the temperature, the more gas is concocted by this Pokémon.  If Koffing becomes agitated, it raises the toxicity of its internal gases and jets them out from all over its body. This Pokémon may also overinflate its round body, then explode.",
+    "evolutions": [110],
+    "type": [ "Poison" ],
+    "base": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "s_attack": 60,
+      "s_defense": 45,
+       "speed": 35
+    }
+  },
+  {
+    "id": 110,
+    "name": { "english": "Weezing", "japanese": "マタドガス" },
+    "description": "Weezing alternately shrinks and inflates its twin bodies to mix together toxic gases inside. The more the gases are mixed, the more powerful the toxins become. The Pokémon also becomes more putrid.  Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.",
+    "evolutions": [109],
+    "type": [ "Poison" ],
+    "base": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "s_attack": 85,
+      "s_defense": 70,
+       "speed": 60
+    }
+  },
+  {
+    "id": 111,
+    "name": { "english": "Rhyhorn", "japanese": "サイホーン" },
+    "description": "Rhyhorn's brain is very small. It is so dense, while on a run it forgets why it started running in the first place. It apparently remembers sometimes if it demolishes something.  Rhyhorn runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This Pokémon may feel some pain from the collision the next day, however.",
+    "evolutions": [112],
+    "type": [ "Ground", "Rock" ],
+    "base": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "s_attack": 30,
+      "s_defense": 30,
+       "speed": 25
+    }
+  },
+  {
+    "id": 112,
+    "name": { "english": "Rhydon", "japanese": "サイドン" },
+    "description": "Rhydon has a horn that serves as a drill. It is used for destroying rocks and boulders. This Pokémon occasionally rams into streams of magma, but the armor-like hide prevents it from feeling the heat.  Rhydon's horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This Pokémon's hide is extremely tough. Even direct cannon hits don't leave a scratch.",
+    "evolutions": [111],
+    "type": [ "Ground", "Rock" ],
+    "base": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "s_attack": 45,
+      "s_defense": 45,
+       "speed": 40
+    }
+  },
+  {
+    "id": 113,
+    "name": { "english": "Chansey", "japanese": "ラッキー" },
+    "description": "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.  Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "s_attack": 35,
+      "s_defense": 105,
+       "speed": 50
+    }
+  },
+  {
+    "id": 114,
+    "name": { "english": "Tangela", "japanese": "モンジャラ" },
+    "description": "Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.  Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
+    "evolutions": [null],
+    "type": [ "Grass" ],
+    "base": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "s_attack": 100,
+      "s_defense": 40,
+       "speed": 60
+    }
+  },
+  {
+    "id": 115,
+    "name": { "english": "Kangaskhan", "japanese": "ガルーラ" },
+    "description": "If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon's parent is sure to be in the area, and it will become violently enraged at you.  If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon's parent is sure to be in the area, and it will become violently enraged at you.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "s_attack": 40,
+      "s_defense": 80,
+       "speed": 90
+    }
+  },
+  {
+    "id": 116,
+    "name": { "english": "Horsea", "japanese": "タッツー" },
+    "description": "If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pokémon swims by cleverly flapping the fin on its back.  Horsea eats small insects and moss off of rocks. If the ocean current turns fast, this Pokémon anchors itself by wrapping its tail around rocks or coral to prevent being washed away.",
+    "evolutions": [117],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "s_attack": 70,
+      "s_defense": 25,
+       "speed": 60
+    }
+  },
+  {
+    "id": 117,
+    "name": { "english": "Seadra", "japanese": "シードラ" },
+    "description": "Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokémon weakens prey with these currents, then swallows it whole.  Seadra sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this Pokémon's poison barbs if they fail to notice it.",
+    "evolutions": [116],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "s_attack": 95,
+      "s_defense": 45,
+       "speed": 85
+    }
+  },
+  {
+    "id": 118,
+    "name": { "english": "Goldeen", "japanese": "トサキント" },
+    "description": "Goldeen loves swimming wild and free in rivers and ponds. If one of these Pokémon is placed in an aquarium, it will shatter even the thickest glass with one ram of its horn and make its escape.  Goldeen is a very beautiful Pokémon with fins that billow elegantly in water. However, don't let your guard down around this Pokémon—it could ram you powerfully with its horn.",
+    "evolutions": [119],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "s_attack": 35,
+      "s_defense": 50,
+       "speed": 63
+    }
+  },
+  {
+    "id": 119,
+    "name": { "english": "Seaking", "japanese": "アズマオウ" },
+    "description": "Seaking is very protective of its eggs. The male and female will take turns patrolling around their nest and eggs. The guarding of eggs by these Pokémon goes on for over a month.  In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females. During this season, this Pokémon's body coloration is at its most beautiful.",
+    "evolutions": [118],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "s_attack": 65,
+      "s_defense": 80,
+       "speed": 68
+    }
+  },
+  {
+    "id": 120,
+    "name": { "english": "Staryu", "japanese": "ヒトデマン" },
+    "description": "Staryu apparently communicates with the stars in the night sky by flashing the red core at the center of its body. If parts of its body are torn, this Pokémon simply regenerates the missing pieces and limbs.  Staryu's center section has an organ called the core that shines bright red. If you go to a beach toward the end of summer, the glowing cores of these Pokémon look like the stars in the sky.",
+    "evolutions": [121],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "s_attack": 70,
+      "s_defense": 55,
+       "speed": 85
+    }
+  },
+  {
+    "id": 121,
+    "name": { "english": "Starmie", "japanese": "スターミー" },
+    "description": "Starmie swims through water by spinning its star-shaped body as if it were a propeller on a ship. The core at the center of this Pokémon's body glows in seven colors.  Starmie's center section—the core—glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname “the gem of the sea.",
+    "evolutions": [120],
+    "type": [ "Water", "Psychic" ],
+    "base": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "s_attack": 100,
+      "s_defense": 85,
+       "speed": 115
+    }
+  },
+  {
+    "id": 122,
+    "name": { "english": "Mr. Mime", "japanese": "バリヤード" },
+    "description": "Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.  Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.",
+    "evolutions": [null],
+    "type": [ "Psychic", "Fairy" ],
+    "base": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "s_attack": 100,
+      "s_defense": 120,
+       "speed": 90
+    }
+  },
+  {
+    "id": 123,
+    "name": { "english": "Scyther", "japanese": "ストライク" },
+    "description": "Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon's scythes are so effective, they can slice through thick logs in one wicked stroke.  Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon's scythes are so effective, they can slice through thick logs in one wicked stroke.",
+    "evolutions": [null],
+    "type": [ "Bug", "Flying" ],
+    "base": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "s_attack": 55,
+      "s_defense": 80,
+       "speed": 105
+    }
+  },
+  {
+    "id": 124,
+    "name": { "english": "Jynx", "japanese": "ルージュラ" },
+    "description": "Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.  Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.",
+    "evolutions": [null],
+    "type": [ "Ice", "Psychic" ],
+    "base": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "s_attack": 115,
+      "s_defense": 95,
+       "speed": 95
+    }
+  },
+  {
+    "id": 125,
+    "name": { "english": "Electabuzz", "japanese": "エレブー" },
+    "description": "When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.  When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.",
+    "evolutions": [null],
+    "type": [ "Electric" ],
+    "base": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "s_attack": 95,
+      "s_defense": 85,
+       "speed": 105
+    }
+  },
+  {
+    "id": 126,
+    "name": { "english": "Magmar", "japanese": "ブーバー" },
+    "description": "In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.  In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.",
+    "evolutions": [null],
+    "type": [ "Fire" ],
+    "base": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "s_attack": 100,
+      "s_defense": 85,
+       "speed": 93
+    }
+  },
+  {
+    "id": 127,
+    "name": { "english": "Pinsir", "japanese": "カイロス" },
+    "description": "Pinsir has a pair of massive horns. Protruding from the surface of these horns are thorns. These thorns are driven deeply into the foe's body when the pincer closes, making it tough for the foe to escape.  Pinsir is astoundingly strong. It can grip a foe weighing twice its weight in its horns and easily lift it. This Pokémon's movements turn sluggish in cold places.",
+    "evolutions": [null],
+    "type": [ "Bug" ],
+    "base": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "s_attack": 55,
+      "s_defense": 70,
+       "speed": 85
+    }
+  },
+  {
+    "id": 128,
+    "name": { "english": "Tauros", "japanese": "ケンタロス" },
+    "description": "This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.  This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "s_attack": 40,
+      "s_defense": 70,
+       "speed": 110
+    }
+  },
+  {
+    "id": 129,
+    "name": { "english": "Magikarp", "japanese": "コイキング" },
+    "description": "Magikarp is virtually useless in battle as it can only splash around. As a result, it is considered to be weak. However, it is actually a very hardy Pokémon that can survive in any body of water no matter how polluted it is.  Magikarp is a pathetic excuse for a Pokémon that is only capable of flopping and splashing. This behavior prompted scientists to undertake research into it.",
+    "evolutions": [130],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "s_attack": 15,
+      "s_defense": 20,
+       "speed": 80
+    }
+  },
+  {
+    "id": 130,
+    "name": { "english": "Gyarados", "japanese": "ギャラドス" },
+    "description": "Once Gyarados goes on a rampage, its ferociously violent blood doesn't calm until it has burned everything down. There are records of this Pokémon's rampages lasting a whole month.  When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon's wildly violent nature.",
+    "evolutions": [129],
+    "type": [ "Water", "Flying" ],
+    "base": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "s_attack": 60,
+      "s_defense": 100,
+       "speed": 81
+    }
+  },
+  {
+    "id": 131,
+    "name": { "english": "Lapras", "japanese": "ラプラス" },
+    "description": "People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.  People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.",
+    "evolutions": [null],
+    "type": [ "Water", "Ice" ],
+    "base": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "s_attack": 85,
+      "s_defense": 95,
+       "speed": 60
+    }
+  },
+  {
+    "id": 132,
+    "name": { "english": "Ditto", "japanese": "メタモン" },
+    "description": "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong.  Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "s_attack": 48,
+      "s_defense": 48,
+       "speed": 48
+    }
+  },
+  {
+    "id": 133,
+    "name": { "english": "Eevee", "japanese": "イーブイ" },
+    "description": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.  Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.",
+    "evolutions": [134,135,136],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "s_attack": 45,
+      "s_defense": 65,
+       "speed": 55
+    }
+  },
+  {
+    "id": 134,
+    "name": { "english": "Vaporeon", "japanese": "シャワーズ" },
+    "description": "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.  Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.",
+    "evolutions": [133],
+    "type": [ "Water" ],
+    "base": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "s_attack": 110,
+      "s_defense": 95,
+       "speed": 65
+    }
+  },
+  {
+    "id": 135,
+    "name": { "english": "Jolteon", "japanese": "サンダース" },
+    "description": "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.  Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
+    "evolutions": [133],
+    "type": [ "Electric" ],
+    "base": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "s_attack": 110,
+      "s_defense": 95,
+       "speed": 130
+    }
+  },
+  {
+    "id": 136,
+    "name": { "english": "Flareon", "japanese": "ブースター" },
+    "description": "Flareon's fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.  Flareon's fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
+    "evolutions": [133],
+    "type": [ "Fire" ],
+    "base": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "s_attack": 95,
+      "s_defense": 110,
+       "speed": 65
+    }
+  },
+  {
+    "id": 137,
+    "name": { "english": "Porygon", "japanese": "ポリゴン" },
+    "description": "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying.  Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "s_attack": 85,
+      "s_defense": 75,
+       "speed": 40
+    }
+  },
+  {
+    "id": 138,
+    "name": { "english": "Omanyte", "japanese": "オムナイト" },
+    "description": "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.  Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
+    "evolutions": [139],
+    "type": [ "Rock", "Water" ],
+    "base": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "s_attack": 90,
+      "s_defense": 55,
+       "speed": 35
+    }
+  },
+  {
+    "id": 139,
+    "name": { "english": "Omastar", "japanese": "オムスター" },
+    "description": "Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large and heavy, causing its movements to become too slow and ponderous.  Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large and heavy, causing its movements to become too slow and ponderous.",
+    "evolutions": [138],
+    "type": [ "Rock", "Water" ],
+    "base": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "s_attack": 115,
+      "s_defense": 70,
+       "speed": 55
+    }
+  },
+  {
+    "id": 140,
+    "name": { "english": "Kabuto", "japanese": "カブト" },
+    "description": "Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years.  Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years.",
+    "evolutions": [141],
+    "type": [ "Rock", "Water" ],
+    "base": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "s_attack": 55,
+      "s_defense": 45,
+       "speed": 55
+    }
+  },
+  {
+    "id": 141,
+    "name": { "english": "Kabutops", "japanese": "カブトプス" },
+    "description": "Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water dweller to living on land as evident from the beginnings of change in its gills and legs.  Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water dweller to living on land as evident from the beginnings of change in its gills and legs.",
+    "evolutions": [140],
+    "type": [ "Rock", "Water" ],
+    "base": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "s_attack": 65,
+      "s_defense": 70,
+       "speed": 80
+    }
+  },
+  {
+    "id": 142,
+    "name": { "english": "Aerodactyl", "japanese": "プテラ" },
+    "description": "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.  Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.",
+    "evolutions": [null],
+    "type": [ "Rock", "Flying" ],
+    "base": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "s_attack": 60,
+      "s_defense": 75,
+       "speed": 130
+    }
+  },
+  {
+    "id": 143,
+    "name": { "english": "Snorlax", "japanese": "カビゴン" },
+    "description": "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its expansive belly as a place to play.  Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its expansive belly as a place to play.",
+    "evolutions": [null],
+    "type": [ "Normal" ],
+    "base": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "s_attack": 65,
+      "s_defense": 110,
+       "speed": 30
+    }
+  },
+  {
+    "id": 144,
+    "name": { "english": "Articuno", "japanese": "フリーザー" },
+    "description": "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.  Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
+    "evolutions": [null],
+    "type": [ "Ice", "Flying" ],
+    "base": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "s_attack": 95,
+      "s_defense": 125,
+       "speed": 85
+    }
+  },
+  {
+    "id": 145,
+    "name": { "english": "Zapdos", "japanese": "サンダー" },
+    "description": "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.  Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.",
+    "evolutions": [null],
+    "type": [ "Electric", "Flying" ],
+    "base": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "s_attack": 125,
+      "s_defense": 90,
+       "speed": 100
+    }
+  },
+  {
+    "id": 146,
+    "name": { "english": "Moltres", "japanese": "ファイヤー" },
+    "description": "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.  Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
+    "evolutions": [null],
+    "type": [ "Fire", "Flying" ],
+    "base": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "s_attack": 125,
+      "s_defense": 85,
+       "speed": 90
+    }
+  },
+  {
+    "id": 147,
+    "name": { "english": "Dratini", "japanese": "ミニリュウ" },
+    "description": "Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.  Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
+    "evolutions": [148,149],
+    "type": [ "Dragon" ],
+    "base": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "s_attack": 50,
+      "s_defense": 50,
+       "speed": 50
+    }
+  },
+  {
+    "id": 148,
+    "name": { "english": "Dragonair", "japanese": "ハクリュー" },
+    "description": "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.  Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
+    "evolutions": [147,149],
+    "type": [ "Dragon" ],
+    "base": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "s_attack": 70,
+      "s_defense": 70,
+       "speed": 70
+    }
+  },
+  {
+    "id": 149,
+    "name": { "english": "Dragonite", "japanese": "カイリュー" },
+    "description": "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.  Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
+    "evolutions": [147.148],
+    "type": [ "Dragon", "Flying" ],
+    "base": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "s_attack": 100,
+      "s_defense": 100,
+       "speed": 80
+    }
+  },
+  {
+    "id": 150,
+    "name": { "english": "Mewtwo", "japanese": "ミュウツー" },
+    "description": "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.  Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
+    "evolutions": [null],
+    "type": [ "Psychic" ],
+    "base": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "s_attack": 154,
+      "s_defense": 90,
+       "speed": 130
+    }
+  },
+  {
+    "id": 151,
+    "name": { "english": "Mew", "japanese": "ミュウ" },
+    "description": "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.  Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
+    "evolutions": [null],
+    "type": [ "Psychic" ],
+    "base": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "s_attack": 100,
+      "s_defense": 100,
+       "speed": 100
+    }
+  }
+]

@@ -1,0 +1,427 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+    body {
+        background-color: #FC8181;
+    }
+
+    .pokedex-container {
+        width: 100%;
+    }
+    
+    .bacImage {
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-image: url('../../img/fundoMobile.png');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imageName{
+        width: 100%;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pokeImage {
+        width: 50%;
+        margin-bottom: 128px;
+    }
+
+     .pokeName{
+        color: #FFF;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .detalhesBox{
+        background-color: #242424;
+        width: 90%;
+        height: auto;
+        padding-bottom: 32px;
+        margin-top: 32px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+        -webkit-box-shadow: -7px 10px 14px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -7px 10px 14px 1px rgba(0,0,0,0.75);
+        box-shadow: -7px 10px 14px 1px rgba(0,0,0,0.75);
+        
+    }
+
+    .descTitle{ 
+        color: #FFF;
+        font-weight: bold;
+        font-size: 25px;
+        border-bottom-color: #FC8181;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        margin-top: 32px;
+    }
+
+    .descAtribute {
+        color: #FFF;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .evolutionContainer {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .evolutionBox {
+        height: 132px;
+        width: 132px;
+        background-color: #FFF;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pokeEvolutionImage {
+        height: 132px;
+        width: 132px;
+        margin-bottom: 32px;
+    }
+
+    .evolutionLabel {
+        color: #FFF;
+        font-size: 32px;
+    }
+
+    .evolutionLabelContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tipoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .evolutionOrientation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .changeButtonL {
+        position: absolute;
+        left: 16px;
+        top:21%;
+        height: 32px;
+        width: 32px;
+        border-radius: 100%;
+        color: #FFF;
+        border-width: 0;
+        background-color: transparent;
+        outline: none;
+        font-size: 32px;
+    }
+
+    .changeButtonR {
+        position: absolute;
+        right: 16px;
+        top:21%;
+        height: 32px;
+        width: 32px;
+        border-radius: 100%;
+        color: #FFF;
+        border-width: 0;
+        background-color: transparent;
+        outline: none;
+        font-size: 32px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .changeButtonL {
+        position: absolute;
+        left: 16px;
+        top:21%;
+        height: 32px;
+        width: 32px;
+        border-radius: 100%;
+        color: #FFF;
+        border-width: 0;
+        background-color: transparent;
+        outline: none;
+        font-size: 32px;
+    }
+
+    .changeButtonR {
+        position: absolute;
+        right: 16px;
+        top:21%;
+        height: 32px;
+        width: 32px;
+        border-radius: 100%;
+        color: #FFF;
+        border-width: 0;
+        background-color: transparent;
+        outline: none;
+        font-size: 32px;
+    }
+
+
+    .pokedex-container {
+        width: 100%;
+    }
+    
+    .bacImage {
+        height: 100%;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        background-image: url('../../img/fundoMobile.png');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imageName{
+        width: 100%;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pokeImage {
+        width: 50%;
+        margin-bottom: 128px;
+    }
+
+     .pokeName{
+        color: #FFF;
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    .detalhesBox{
+        background-color: #242424;
+        width: 90%;
+        height: auto;
+        padding-bottom: 32px;
+        margin-top: 32px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+        -webkit-box-shadow: -7px 10px 14px 1px rgba(0,0,0,0.75);
+        -moz-box-shadow: -7px 10px 14px 1px rgba(0,0,0,0.75);
+        box-shadow: -7px 10px 14px 1px rgba(0,0,0,0.75);
+        
+    }
+
+    .descTitle{ 
+        color: #FFF;
+        font-weight: bold;
+        font-size: 25px;
+        
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        margin-top: 32px;
+    }
+
+    .descAtribute {
+        color: #FFF;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    .evolutionContainer {
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .evolutionBox {
+        height: 132px;
+        width: 132px;
+        background-color: #FFF;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pokeEvolutionImage {
+        height: 132px;
+        width: 132px;
+        margin-bottom: 32px;
+    }
+
+    .evolutionLabel {
+        color: #FFF;
+        font-size: 32px;
+    }
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .changeButtonL {
+        top:30%;
+        font-size: 40px;
+    }
+
+    .changeButtonR {
+        top:30%;
+        font-size: 40px;
+    }
+
+
+    .bacImage {
+        background-image: url('../../img/fundo.png');
+        background-size: cover;
+    }
+
+    .pokeImage {
+        margin-bottom: 16px;
+    }
+
+    .descTitle{ 
+        font-size: 30px;
+    }
+
+    .descAtribute {
+        font-size: 20px;
+    }
+    .gridInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 32px;
+        margin-right: 32px;
+    }
+
+    .evolutionOrientation {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .tipoEvolutionOrientation {
+        display: flex; 
+        width: 100%;    
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .evolutionOrientation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .evolutionLabelContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .changeButtonL {
+        top:40%;
+        font-size: 40px;
+    }
+
+    .changeButtonR {
+        top:40%;
+        font-size: 40px;
+    }
+
+    .bacImage {
+        flex-direction: row;
+    }
+
+    .gridInfo {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 32px;
+        align-self: center;
+    }
+
+    .descAtribute {
+        margin-left: 32px;
+        text-align: left;
+    }
+
+    .detalhesBox {
+        align-items: flex-start;
+        margin-right: 64px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #404040;
+        padding-right: 16px;
+    }
+    
+    .descTitle {
+        margin-left: 32px;
+    }
+
+    .tipoEvolutionOrientation {
+        display: flex; 
+        width: 100%;       
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .evolutionOrientation {   
+        flex-direction: row;
+        align-items: center;
+        margin-left: 32px;
+    }
+
+
+    .evolutionContainer {
+        align-items: flex-end;
+        margin-right: 16px;
+        margin-left: 8px;
+    }
+
+    .detalhesBox {
+        width: 70%;
+    }
+
+
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
