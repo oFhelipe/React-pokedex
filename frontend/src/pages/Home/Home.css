@@ -1,24 +1,17 @@
-/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
-
     .container {
         height: 100%;
         width: 100%;
-        background-color: #232323;
-        
+        background-color: #232323;     
     }
-
     .pokewallpaperContainer {
         margin-top: 16px;
         width: 90%;
     }
-
     .pokewallpaper{
         width: 100%;
         border-radius: 10px;
     }
-
     .pokeImg{
         height: 100px;
         width: 100px;
@@ -30,45 +23,33 @@
         row-gap: 36px;
         margin-top: 36px;
     }
-
     .pokeName{
         color: #fff;
         font-size: 12px;
         font-weight: normal;
     }
-
     .pokeImgContainer{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
-
-
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
     .container {
         display: flex;
         flex: 1;
         flex-direction: column;
         align-items: center;
-        background-color: #232323;
-        
+        background-color: #232323;   
     }
-
     .pokewallpaperContainer {
         margin-top: 16px;
         width: 90%;
     }
-
     .pokewallpaper{
         width: 100%;
         border-radius: 10px;
     }
-
     .pokeImg{
         height: 125px;
         width: 125px;
@@ -82,41 +63,25 @@
         row-gap: 36px;
         margin-top: 36px;
     }
-
     .pokeName{
         color: #fff;
         font-size: 16px;
         font-weight: normal;
     }
-
     .pokeImgContainer{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     .pokeImgContainer{
         cursor: pointer;
     }
-
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
- 
-    
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
-    .pokeImg{
+  .pokeImg{
         height: 200px;
         width: 200px;
     }
-
     .pokeImgList{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -124,15 +89,8 @@
         row-gap: 36px;
         margin-top: 36px;
     }
-
     .pokeName{
         color: #fff;
         font-size: 16px;
     }
-
-
-
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
