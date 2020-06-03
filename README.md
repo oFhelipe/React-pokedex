@@ -1,4 +1,10 @@
 # React-pokedex
+![project_language](https://img.shields.io/badge/language-javascript-f7d84a)
+![server_backend](https://img.shields.io/badge/backend%2Fserver-node-green)
+![web](https://img.shields.io/badge/web-react-b831f6)
+![package_manager](https://img.shields.io/badge/package%20manager-yarn-informational)
+
+
 Pokedex feita com React.js e SQLite
 
  ![3oqhlm](https://user-images.githubusercontent.com/59922096/78077902-9836f200-737f-11ea-8b7b-ec836f66dc25.jpg)
