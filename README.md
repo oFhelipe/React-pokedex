@@ -69,7 +69,7 @@ Na tela de pokemon, alguns detalhes mudam de acordo com o tipo do pokemon, exmpl
 <img width="49%" src="https://user-images.githubusercontent.com/59922096/78080879-8ce6c500-7385-11ea-9119-3f62a44d8c76.PNG" />
 </p>
 
-##Tela 404 Error
+## Tela 404 Error
 
 Quando um id de pokemon não é encontrado é redirecionado para essa pagina 404
 
